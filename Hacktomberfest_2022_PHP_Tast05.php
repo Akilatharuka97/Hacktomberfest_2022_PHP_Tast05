@@ -1,12 +1,12 @@
 <?php
 class Fruit {
-  public $name;
-  protected $color;
-  private $weight;
-
-
+ public $name;
+ protected $color;
+ private $weight;
+}//missing bracket
 $mango = new Fruit();
-$mango>name = 'Mango'; / OK
-$mango>color = 'Yellow'; / ERROR
-$mango>weight = '300'; / ERROR
+//comments are wrong
+$mango->name = 'Mango'; // OK
+$mango->color = 'Yellow'; // ERROR
+$mango->weight = '300'; // ERROR
 ?>
